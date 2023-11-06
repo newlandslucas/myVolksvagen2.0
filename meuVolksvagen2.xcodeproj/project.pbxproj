@@ -18,6 +18,7 @@
 		94DC599A2AF9851600F78E6E /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59992AF9851600F78E6E /* RemoteView.swift */; };
 		94DC599C2AF9852300F78E6E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599B2AF9852300F78E6E /* MapView.swift */; };
 		94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599D2AF9852C00F78E6E /* SettingsView.swift */; };
+		94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A02AF985B500F78E6E /* tabNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		94DC59992AF9851600F78E6E /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
 		94DC599B2AF9852300F78E6E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		94DC599D2AF9852C00F78E6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		94DC59A02AF985B500F78E6E /* tabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		94DC59892AF48EC200F78E6E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				94DC599F2AF985A700F78E6E /* Navigation */,
 				94DC598A2AF48EE400F78E6E /* Screens */,
 			);
 			path = Core;
@@ -150,6 +153,14 @@
 				94DC599D2AF9852C00F78E6E /* SettingsView.swift */,
 			);
 			path = Ajustes;
+			sourceTree = "<group>";
+		};
+		94DC599F2AF985A700F78E6E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59A02AF985B500F78E6E /* tabNavigation.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 				94DC597D2AF48E5300F78E6E /* ContentView.swift in Sources */,
 				94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */,
 				94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */,
+				94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */,
 				94DC597B2AF48E5300F78E6E /* meuVolksvagen2App.swift in Sources */,
 				94DC59952AF97C4100F78E6E /* MapComponentView.swift in Sources */,
 			);
