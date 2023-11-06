@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DC597B2AF48E5300F78E6E /* meuVolksvagen2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC597A2AF48E5300F78E6E /* meuVolksvagen2App.swift */; };
+		94DC597D2AF48E5300F78E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC597C2AF48E5300F78E6E /* ContentView.swift */; };
+		94DC597F2AF48E5700F78E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DC597E2AF48E5700F78E6E /* Assets.xcassets */; };
+		94DC59822AF48E5700F78E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DC59812AF48E5700F78E6E /* Preview Assets.xcassets */; };
+		94DC598D2AF48F3B00F78E6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC598C2AF48F3B00F78E6E /* HomeView.swift */; };
+		94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59902AF5553600F78E6E /* RemoteControlsView.swift */; };
+		94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59922AF9778400F78E6E /* ClimateCardControl.swift */; };
+		94DC59952AF97C4100F78E6E /* MapComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59942AF97C4100F78E6E /* MapComponentView.swift */; };
+		94DC599A2AF9851600F78E6E /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59992AF9851600F78E6E /* RemoteView.swift */; };
+		94DC599C2AF9852300F78E6E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599B2AF9852300F78E6E /* MapView.swift */; };
+		94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599D2AF9852C00F78E6E /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94DC59772AF48E5300F78E6E /* meuVolksvagen2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meuVolksvagen2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DC597A2AF48E5300F78E6E /* meuVolksvagen2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meuVolksvagen2App.swift; sourceTree = "<group>"; };
+		94DC597C2AF48E5300F78E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94DC597E2AF48E5700F78E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94DC59812AF48E5700F78E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94DC598C2AF48F3B00F78E6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		94DC59902AF5553600F78E6E /* RemoteControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlsView.swift; sourceTree = "<group>"; };
+		94DC59922AF9778400F78E6E /* ClimateCardControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCardControl.swift; sourceTree = "<group>"; };
+		94DC59942AF97C4100F78E6E /* MapComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapComponentView.swift; sourceTree = "<group>"; };
+		94DC59992AF9851600F78E6E /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
+		94DC599B2AF9852300F78E6E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		94DC599D2AF9852C00F78E6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DC59742AF48E5300F78E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DC596E2AF48E5300F78E6E = {
+			isa = PBXGroup;
+			children = (
+				94DC59792AF48E5300F78E6E /* meuVolksvagen2 */,
+				94DC59782AF48E5300F78E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94DC59782AF48E5300F78E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59772AF48E5300F78E6E /* meuVolksvagen2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DC59792AF48E5300F78E6E /* meuVolksvagen2 */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59892AF48EC200F78E6E /* Core */,
+				94DC59882AF48EBC00F78E6E /* App */,
+				94DC597C2AF48E5300F78E6E /* ContentView.swift */,
+				94DC597E2AF48E5700F78E6E /* Assets.xcassets */,
+				94DC59802AF48E5700F78E6E /* Preview Content */,
+			);
+			path = meuVolksvagen2;
+			sourceTree = "<group>";
+		};
+		94DC59802AF48E5700F78E6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59812AF48E5700F78E6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94DC59882AF48EBC00F78E6E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				94DC597A2AF48E5300F78E6E /* meuVolksvagen2App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		94DC59892AF48EC200F78E6E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94DC598A2AF48EE400F78E6E /* Screens */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94DC598A2AF48EE400F78E6E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59982AF9850800F78E6E /* Ajustes */,
+				94DC59972AF984F000F78E6E /* Map */,
+				94DC59962AF984E600F78E6E /* Remote */,
+				94DC598E2AF5551E00F78E6E /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		94DC598E2AF5551E00F78E6E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94DC598F2AF5552700F78E6E /* components */,
+				94DC598C2AF48F3B00F78E6E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		94DC598F2AF5552700F78E6E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59902AF5553600F78E6E /* RemoteControlsView.swift */,
+				94DC59922AF9778400F78E6E /* ClimateCardControl.swift */,
+				94DC59942AF97C4100F78E6E /* MapComponentView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		94DC59962AF984E600F78E6E /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59992AF9851600F78E6E /* RemoteView.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		94DC59972AF984F000F78E6E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				94DC599B2AF9852300F78E6E /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		94DC59982AF9850800F78E6E /* Ajustes */ = {
+			isa = PBXGroup;
+			children = (
+				94DC599D2AF9852C00F78E6E /* SettingsView.swift */,
+			);
+			path = Ajustes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DC59762AF48E5300F78E6E /* meuVolksvagen2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DC59852AF48E5700F78E6E /* Build configuration list for PBXNativeTarget "meuVolksvagen2" */;
+			buildPhases = (
+				94DC59732AF48E5300F78E6E /* Sources */,
+				94DC59742AF48E5300F78E6E /* Frameworks */,
+				94DC59752AF48E5300F78E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meuVolksvagen2;
+			productName = meuVolksvagen2;
+			productReference = 94DC59772AF48E5300F78E6E /* meuVolksvagen2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DC596F2AF48E5300F78E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					94DC59762AF48E5300F78E6E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 94DC59722AF48E5300F78E6E /* Build configuration list for PBXProject "meuVolksvagen2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94DC596E2AF48E5300F78E6E;
+			productRefGroup = 94DC59782AF48E5300F78E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DC59762AF48E5300F78E6E /* meuVolksvagen2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DC59752AF48E5300F78E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DC59822AF48E5700F78E6E /* Preview Assets.xcassets in Resources */,
+				94DC597F2AF48E5700F78E6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DC59732AF48E5300F78E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DC598D2AF48F3B00F78E6E /* HomeView.swift in Sources */,
+				94DC599C2AF9852300F78E6E /* MapView.swift in Sources */,
+				94DC599A2AF9851600F78E6E /* RemoteView.swift in Sources */,
+				94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */,
+				94DC597D2AF48E5300F78E6E /* ContentView.swift in Sources */,
+				94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */,
+				94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */,
+				94DC597B2AF48E5300F78E6E /* meuVolksvagen2App.swift in Sources */,
+				94DC59952AF97C4100F78E6E /* MapComponentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94DC59832AF48E5700F78E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94DC59842AF48E5700F78E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DC59862AF48E5700F78E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meuVolksvagen2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to sell your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnewlands.meuVolksvagen2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94DC59872AF48E5700F78E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meuVolksvagen2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to sell your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnewlands.meuVolksvagen2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DC59722AF48E5300F78E6E /* Build configuration list for PBXProject "meuVolksvagen2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DC59832AF48E5700F78E6E /* Debug */,
+				94DC59842AF48E5700F78E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DC59852AF48E5700F78E6E /* Build configuration list for PBXNativeTarget "meuVolksvagen2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DC59862AF48E5700F78E6E /* Debug */,
+				94DC59872AF48E5700F78E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DC596F2AF48E5300F78E6E /* Project object */;
+}
