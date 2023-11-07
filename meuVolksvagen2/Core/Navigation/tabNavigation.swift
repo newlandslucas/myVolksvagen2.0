@@ -14,17 +14,13 @@ struct tabNavigation: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            RemoteView()
-                .tabItem {
-                    Label("Remote", systemImage: "key.radiowaves.forward")
-                }
             MapView()
                 .tabItem {
                     Label("Localização", systemImage: "map")
                 }
             SettingsView()
                 .tabItem {
-                    Label("Ajustes", systemImage: "gear")
+                    Label("Mais", systemImage: "line.3.horizontal")
                 }
         }
         .background(Color.white)

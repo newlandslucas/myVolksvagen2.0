@@ -33,7 +33,7 @@ struct HomeView: View {
                     
             }
             .frame(width: 400, height: 170)
-            .background(Color.blue)
+            .background(Color("volksBlue"))
             .cornerRadius(24)
             .ignoresSafeArea(.all)
             

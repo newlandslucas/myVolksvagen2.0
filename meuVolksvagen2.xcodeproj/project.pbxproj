@@ -15,10 +15,10 @@
 		94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59902AF5553600F78E6E /* RemoteControlsView.swift */; };
 		94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59922AF9778400F78E6E /* ClimateCardControl.swift */; };
 		94DC59952AF97C4100F78E6E /* MapComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59942AF97C4100F78E6E /* MapComponentView.swift */; };
-		94DC599A2AF9851600F78E6E /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59992AF9851600F78E6E /* RemoteView.swift */; };
 		94DC599C2AF9852300F78E6E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599B2AF9852300F78E6E /* MapView.swift */; };
 		94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599D2AF9852C00F78E6E /* SettingsView.swift */; };
 		94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A02AF985B500F78E6E /* tabNavigation.swift */; };
+		94DC59A42AFA685100F78E6E /* menuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A32AFA685100F78E6E /* menuOptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		94DC59902AF5553600F78E6E /* RemoteControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlsView.swift; sourceTree = "<group>"; };
 		94DC59922AF9778400F78E6E /* ClimateCardControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCardControl.swift; sourceTree = "<group>"; };
 		94DC59942AF97C4100F78E6E /* MapComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapComponentView.swift; sourceTree = "<group>"; };
-		94DC59992AF9851600F78E6E /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
 		94DC599B2AF9852300F78E6E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		94DC599D2AF9852C00F78E6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		94DC59A02AF985B500F78E6E /* tabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabNavigation.swift; sourceTree = "<group>"; };
+		94DC59A32AFA685100F78E6E /* menuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 			children = (
 				94DC59982AF9850800F78E6E /* Ajustes */,
 				94DC59972AF984F000F78E6E /* Map */,
-				94DC59962AF984E600F78E6E /* Remote */,
 				94DC598E2AF5551E00F78E6E /* Home */,
 			);
 			path = Screens;
@@ -131,14 +130,6 @@
 			path = components;
 			sourceTree = "<group>";
 		};
-		94DC59962AF984E600F78E6E /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				94DC59992AF9851600F78E6E /* RemoteView.swift */,
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
 		94DC59972AF984F000F78E6E /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +141,7 @@
 		94DC59982AF9850800F78E6E /* Ajustes */ = {
 			isa = PBXGroup;
 			children = (
+				94DC59A22AFA684100F78E6E /* components */,
 				94DC599D2AF9852C00F78E6E /* SettingsView.swift */,
 			);
 			path = Ajustes;
@@ -161,6 +153,14 @@
 				94DC59A02AF985B500F78E6E /* tabNavigation.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		94DC59A22AFA684100F78E6E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59A32AFA685100F78E6E /* menuOptionView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,13 +235,13 @@
 			files = (
 				94DC598D2AF48F3B00F78E6E /* HomeView.swift in Sources */,
 				94DC599C2AF9852300F78E6E /* MapView.swift in Sources */,
-				94DC599A2AF9851600F78E6E /* RemoteView.swift in Sources */,
 				94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */,
 				94DC597D2AF48E5300F78E6E /* ContentView.swift in Sources */,
 				94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */,
 				94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */,
 				94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */,
 				94DC597B2AF48E5300F78E6E /* meuVolksvagen2App.swift in Sources */,
+				94DC59A42AFA685100F78E6E /* menuOptionView.swift in Sources */,
 				94DC59952AF97C4100F78E6E /* MapComponentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
