@@ -17,12 +17,20 @@ struct HomeView: View {
                         .font(.title2)
                     Text("Lucas Newlands")
                         .fontWeight(.semibold)
-                        .font(.title)
+                        .font(.title2)
                 }
                 .padding()
                 .foregroundColor(.white)
                 
                 Spacer()
+                
+                Image("userPhoto")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 50, height: 50)
+                    .cornerRadius(25)
+                    .padding(.horizontal, 15)
+                    
             }
             .frame(width: 400, height: 170)
             .background(Color.blue)
@@ -55,6 +63,8 @@ struct HomeView: View {
                         .font(.footnote)
                         .fontWeight(.semibold)
                 }
+                .padding(.bottom, 10)
+
                 
                 //MARK: Remote controls
                 VStack() {
@@ -80,6 +90,7 @@ struct HomeView: View {
                 .background(Color.white)
                 .cornerRadius(12)
                 .padding(.top, 10)
+                .shadow(radius: 3)
                 
                 //MARK: Clima | localização
                 HStack {
@@ -98,7 +109,7 @@ struct HomeView: View {
 
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("ColorGray"))
+        .background(Color.white)
         
     }
 }

@@ -23,14 +23,15 @@ struct MapComponentView: View {
 
             VStack {
                 Map(coordinateRegion: $region)
-                    .frame(width: 160, height: 120)
+                    .frame(width: 150, height: 120)
                     .cornerRadius(12)
             }
         }
         .padding()
-        .frame(width: 180, height: 170)
+        .frame(width: 160, height: 170)
         .background(Color.white)
         .cornerRadius(24)
+        .shadow(radius: 3)
     }
 }
 

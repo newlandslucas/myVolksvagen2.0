@@ -60,6 +60,7 @@ struct ClimateCardControl: View {
         .frame(width: 160, height: 170)
         .background(Color.white)
         .cornerRadius(24)
+        .shadow(radius: 3)
     }
 }
 
