@@ -90,7 +90,7 @@ struct HomeView: View {
                 .background(Color.white)
                 .cornerRadius(12)
                 .padding(.top, 10)
-                .shadow(radius: 3)
+                .shadow(radius: 1.5)
                 
                 //MARK: Clima | localização
                 HStack {
@@ -109,8 +109,7 @@ struct HomeView: View {
 
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white)
-        
+        .background(Color("ApplicationGray"))
     }
 }
 

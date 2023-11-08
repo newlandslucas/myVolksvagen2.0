@@ -22,7 +22,7 @@ struct menuOptionView: View {
                 Image(systemName: "chevron.right")
             }
             .padding()
-            .foregroundColor(.white)
+            .foregroundColor(.black)
         }
     }
 }

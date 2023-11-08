@@ -14,7 +14,7 @@ struct SettingsView: View {
                 Text("Opções")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                 Spacer()
             }
             .padding()
@@ -24,15 +24,13 @@ struct SettingsView: View {
             menuOptionView(iconName: "photo.on.rectangle", optionTitle: "Conheça seu VW")
             menuOptionView(iconName: "calendar", optionTitle: "Agendamento de Serviços")
             menuOptionView(iconName: "newspaper", optionTitle: "Manual do proprietário")
-            menuOptionView()
-
             
             Spacer()
             
 
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("volksBlue"))
+        .background(Color("ApplicationGray"))
     }
 }
 

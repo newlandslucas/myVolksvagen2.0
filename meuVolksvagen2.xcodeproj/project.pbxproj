@@ -19,6 +19,7 @@
 		94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC599D2AF9852C00F78E6E /* SettingsView.swift */; };
 		94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A02AF985B500F78E6E /* tabNavigation.swift */; };
 		94DC59A42AFA685100F78E6E /* menuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A32AFA685100F78E6E /* menuOptionView.swift */; };
+		94DC59A72AFBE96400F78E6E /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC59A62AFBE96400F78E6E /* ContactCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		94DC599D2AF9852C00F78E6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		94DC59A02AF985B500F78E6E /* tabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabNavigation.swift; sourceTree = "<group>"; };
 		94DC59A32AFA685100F78E6E /* menuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOptionView.swift; sourceTree = "<group>"; };
+		94DC59A62AFBE96400F78E6E /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		94DC59972AF984F000F78E6E /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				94DC59A52AFBE95300F78E6E /* components */,
 				94DC599B2AF9852300F78E6E /* MapView.swift */,
 			);
 			path = Map;
@@ -159,6 +162,14 @@
 			isa = PBXGroup;
 			children = (
 				94DC59A32AFA685100F78E6E /* menuOptionView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		94DC59A52AFBE95300F78E6E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				94DC59A62AFBE96400F78E6E /* ContactCard.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -237,6 +248,7 @@
 				94DC599C2AF9852300F78E6E /* MapView.swift in Sources */,
 				94DC599E2AF9852C00F78E6E /* SettingsView.swift in Sources */,
 				94DC597D2AF48E5300F78E6E /* ContentView.swift in Sources */,
+				94DC59A72AFBE96400F78E6E /* ContactCard.swift in Sources */,
 				94DC59912AF5553600F78E6E /* RemoteControlsView.swift in Sources */,
 				94DC59932AF9778400F78E6E /* ClimateCardControl.swift in Sources */,
 				94DC59A12AF985B500F78E6E /* tabNavigation.swift in Sources */,
